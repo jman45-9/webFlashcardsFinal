@@ -1,0 +1,31 @@
+<h1 id="web-flashcard-tools">Web Flashcard Tools</h1>
+<p>This project serves as an alternative to paid flashcard tools such as
+creating tests(Can not name specific sites for legal reasons)</p>
+<h2 id="instructions-for-use">Instructions for use</h2>
+<h3 id="creating-sets">Creating Sets</h3>
+<p>Sets must be created in plain text documents(.txt among others).
+Front and back of cards must be separated by one of three separators.
+These are:<br />
+tab(\t), pipe(|), semicolon(;), colon(:), comma(,), space( )<br />
+Each card must be placed on it’s own line.</p>
+<p>A tag can be added at the top of the file to define a separator for
+the file in the format of:</p>
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode txt"><code class="sourceCode default"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>#separator:&lt;name-of-separator&gt;</span></code></pre></div>
+<p>If this is not done the files will be separated by the first valid
+separator found on each line.</p>
+<p>If you want to have a line ignored start the line with ‘#’ invalid
+lines stating with a different character will trigger a error.</p>
+<h3 id="uploading-files">Uploading Files</h3>
+<p>On every feature page the top of the page will contain a button to
+submit your set. If a set has bad formatting a large red error will
+appear. <em>THIS ERROR WILL NOT DISAPPEAR UPON UPLOADING A VALID
+SET.</em> When a valid set is uploaded a button to start the feature
+will appear. <em>THIS BUTTON WILL NOT GO AWAY UPON UPLOADING A INVALID
+SET</em>. Due to the errors and continue buttons not disappearing, it is
+recommended to reload the page in between uploading a new set.</p>
+<h3 id="mass-study-standard-flashcards">Mass Study (Standard
+Flashcards)</h3>
+<p>Mass Study works like regular index card flashcards. After uploading
+a set a next card button will appear. The front of the card will appear
+with a flip card button. This repeats for the entire set.</p>
